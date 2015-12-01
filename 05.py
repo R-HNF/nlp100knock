@@ -10,7 +10,8 @@ def ngram(sentence,n):
     wgram=[words[i:i+n] for i in range(len(words)-n+1)]
 
     #character n-gram
-    cgram=[[sentence[i+j] for j in range(n)] for i in range(len(sentence)-n+1)]
+    cgram=[sentence[i:i+n] for i in range(len(sentence)-n+1)]
+    #cgram=[[sentence[i+j] for j in range(n)] for i in range(len(sentence)-n+1)]
     #return n-grams
     return wgram,cgram
 
