@@ -1,6 +1,3 @@
-sentence="I am an NLPer"
-#sentence=["I","am","an","NLPer"]
-
 def ngram(sentence,n):
     #change to str from list
     if(isinstance(sentence,list)):sentence=" ".join(sentence)
@@ -15,8 +12,16 @@ def ngram(sentence,n):
     #return n-grams
     return wgram,cgram
 
+#str
+sentence_s="I am an NLPer"
+#list
+sentence_l=["I","am","an","NLPer"]
 
-wgram,cgram=ngram(sentence,2)
-#wgram,cgram=ngram(sentence,3)
+
+wgram,cgram=ngram(sentence_s,2)
+print wgram
+print cgram
+
+wgram,cgram=ngram(sentence_l,2)
 print wgram
 print cgram
