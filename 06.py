@@ -23,9 +23,11 @@ print "X=",X
 print "Y=",Y,"\n"
 
 ws=set(X)
-print ws.union(Y)
-print ws.intersection(Y)
-print ws.difference(Y),"\n"
+print "(X+Y)=",ws.union(Y)
+print "(X*Y)=",ws.intersection(Y)
+print "(X-Y)=",ws.difference(Y)
+
+print "(Y-X)=",set(Y).difference(X),"\n"
 
 
 if "se" in X:
