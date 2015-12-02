@@ -27,6 +27,7 @@ print ws.union(Y)
 print ws.intersection(Y)
 print ws.difference(Y),"\n"
 
+
 if "se" in X:
     print "'se' is in X"
 else:
