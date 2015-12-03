@@ -9,26 +9,23 @@ def ngram(sentence,n):
     #character n-gram
     cgram=[sentence[i:i+n] for i in range(len(sentence)-n+1)]
     #cgram=[[sentence[i+j] for j in range(n)] for i in range(len(sentence)-n+1)]
+    
     #return n-grams
     return wgram,cgram
 
 
-
 str1="paraparaparadise"
 str2="paragraph"
-
 wgram1,X=ngram(str1,2)
 wgram2,Y=ngram(str2,2)
+
 print "X=",X
 print "Y=",Y,"\n"
 
-ws=set(X)
-print "(X+Y)=",ws.union(Y)
-print "(X*Y)=",ws.intersection(Y)
-print "(X-Y)=",ws.difference(Y)
-
-print "(Y-X)=",set(Y).difference(X),"\n"
-
+print "union",set(X).union(Y)
+print "intersection",set(X).intersection(Y)
+print "difference (X\Y)",set(X).difference(Y)
+print "difference (Y\X)",set(Y).difference(X),"\n"
 
 if "se" in X:
     print "'se' is in X"

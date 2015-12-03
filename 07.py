@@ -1,4 +1,4 @@
-#coding:utf-8
+#-*-coding:utf-8-*-
 def tempreture(x,y,z):
     return u"%s時の%sは%s" % (x,y,z)
 

@@ -14,14 +14,12 @@ def ngram(sentence,n):
 
 #str
 sentence_s="I am an NLPer"
-#list
-sentence_l=["I","am","an","NLPer"]
-
-
 wgram,cgram=ngram(sentence_s,2)
 print wgram
 print cgram
 
+#list
+sentence_l=["I","am","an","NLPer"]
 wgram,cgram=ngram(sentence_l,2)
 print wgram
 print cgram
