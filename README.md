@@ -1,3 +1,3 @@
 # nlp100knock
-�������100�ܥΥå�
+言語処理100本ノック
 http://www.cl.ecei.tohoku.ac.jp/nlp100/
