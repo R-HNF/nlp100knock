@@ -1,4 +1,4 @@
-#-*-encoding:utf-8-*-
+#-*-coding:utf-8-*-
 import sys
 lines=list(open(sys.argv[1],'r'))
 

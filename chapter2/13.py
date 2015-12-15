@@ -1,5 +1,4 @@
 #-*-coding:utf-8-*-
-
 file_col1=open("col1.txt",'r')
 file_col2=open("col2.txt",'r')
 file_col_12=open("col_12.txt",'w')
