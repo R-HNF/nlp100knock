@@ -10,4 +10,4 @@ for l in lines_sorted:
     print '\t'.join(l).strip()
 
 # shell command verification
-
+# $ sort -k3 hightemp.txt

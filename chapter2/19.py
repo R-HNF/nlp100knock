@@ -13,4 +13,4 @@ for w,c in wcount_sorted:
     print w,c
     
 # shell command verification
-
+# $ cut -f 1 hightemp.txt|sort|uniq -c|sort -r

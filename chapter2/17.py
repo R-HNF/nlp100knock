@@ -5,4 +5,4 @@ for p in dict([(k.split('\t')[0],1) for k in lines]).keys():
     print p 
 
 # shell command verification
-
+# $ cut -f 1 hightemp.txt|sort|uniq

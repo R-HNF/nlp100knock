@@ -9,4 +9,4 @@ for i in range(0,len(lines),n):
     print "-"*20
 
 # shell command verification
-# $split -l 8 hightemp.txt
+# $ split -l 8 hightemp.txt
